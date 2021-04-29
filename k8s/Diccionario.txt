@@ -1,0 +1,9 @@
+Para hacer pruebas 
+
+kubectl port-forward <pod-kibana> 5601:5601 
+
+navegador: localhost:5601 para entrar kibana
+
+kubectl port-forward <pod-nginx> 80:80 
+
+navegador: localhost:80 Para crear logs
